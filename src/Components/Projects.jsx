@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import axios from 'axios';
+import fback from '../media/fbackp.png';
 
 const projects = [
   {
@@ -131,7 +132,7 @@ const Projects = () => {
               >
                 <div className="w-full max-w-xs h-auto lg:max-w-sm lg:max-h-40 cursor-pointer flex justify-center">
                   <img
-                    src={screenshotUrls[project.livePreviewLink || project.sourceCodeLink] || '/assets/default-image.png'}
+                    src={screenshotUrls[project.livePreviewLink || project.sourceCodeLink] || fback}
                     alt={project.title}
                     className="object-fill object-center w-full h-full transition duration-500 hover:scale-105"
                   />

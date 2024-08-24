@@ -7,7 +7,7 @@ const certificates = [
   {
     name: "Databricks Academy Certificate",
     certificateLink: "https://drive.google.com/file/d/1Lxx3FoUt5tSiNtojqJ8gDbnNp9__CMSD/view?usp=sharing",
-    previewLink: "https://drive.google.com/file/d/1Lxx3FoUt5tSiNtojqJ8gDbnNp9__CMSD/view?usp=sharing",
+    previewLink: "",
   },
   {
     name: "Python Language",
@@ -69,7 +69,7 @@ const Certificates = () => {
           transition={{ duration: 1 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold">Certificates</h2>
+          <h2 className="text-3xl font-bold">Certifications</h2>
         </motion.div>
         <table className="min-w-full divide-y divide-gray-700 mx-auto">
           <tbody className="bg-gray-700 divide-y divide-gray-900">

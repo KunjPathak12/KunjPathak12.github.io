@@ -105,45 +105,45 @@ const Skills = () => {
           <h2 className="text-3xl font-bold">Skills</h2>
         </motion.div>
         <div className="overflow-x-auto">
-          <table className="min-w-full divide-y divide-gray-700 mx-auto">
-            <tbody className="bg-gray-900 divide-y divide-gray-700">
-              {Object.keys(skills).map(category => (
-                <tr key={category} className="flex">
-                  <td className="w-1/3 px-4 py-2 text-center text-lg font-medium text-gray-300 whitespace-nowrap">
-                    <span className="font-semibold">{category}</span>
-                  </td>
-                  <td className="w-2/3 px-4 py-2">
-                    <div className="flex flex-wrap justify-center gap-4">
-                      {skills[category].map((skill, index) => (
-                        <motion.div
-                          key={skill.name}
-                          whileHover={{ scale: 1.1 }}
-                          className="flex flex-col items-center"
-                        >
-                          {skill.icon ? (
-                            <div className="flex items-center">
-                              <FontAwesomeIcon
-                                icon={skill.icon}
-                                size="3x"
-                                className="text-gray-400 hover:text-gray-200"
-                              />
-                            </div>
-                          ) : (
-                            <img
-                              src={skill.img}
-                              alt={skill.name}
-                              className="w-12 h-12 object-cover rounded-full border border-gray-500"
+        <table className="min-w-full divide-y divide-gray-700 mx-auto">
+          <tbody className="bg-gray-900 divide-y divide-gray-700">
+            {Object.keys(skills).map(category => (
+              <tr key={category} className="flex flex-col md:flex-row">
+                <td className="w-full md:w-1/3 px-4 py-2 text-center text-lg font-medium text-gray-300 whitespace-nowrap">
+                  <span className="font-semibold">{category}</span>
+                </td>
+                <td className="w-full md:w-2/3 px-4 py-2">
+                  <div className="flex flex-wrap justify-center gap-4">
+                    {skills[category].map((skill, index) => (
+                      <motion.div
+                        key={skill.name}
+                        whileHover={{ scale: 1.1 }}
+                        className="flex flex-col items-center"
+                      >
+                        {skill.icon ? (
+                          <div className="flex items-center">
+                            <FontAwesomeIcon
+                              icon={skill.icon}
+                              size="3x"
+                              className="text-gray-400 hover:text-gray-200"
                             />
-                          )}
-                          <span className="text-xs mt-1 text-center">{skill.name}</span>
-                        </motion.div>
-                      ))}
-                    </div>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                          </div>
+                        ) : (
+                          <img
+                            src={skill.img}
+                            alt={skill.name}
+                            className="w-12 h-12 object-cover rounded-full border border-gray-500"
+                          />
+                        )}
+                        <span className="text-xs mt-1 text-center">{skill.name}</span>
+                      </motion.div>
+                    ))}
+                  </div>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
         </div>
       </div>
     </section>

@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <section id="experience" className="bg-gray-700 text-white py-12 px-4 lg:px-8">
       <div className="container mx-auto">
-      <motion.div
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -15,9 +15,10 @@ const Experience = () => {
         >
           <h2 className="text-3xl font-bold">Experience</h2>
         </motion.div>
+
         {/* Diggibyte Technologies */}
         <div className="flex flex-col lg:flex-row items-center mb-12">
-          <div className="lg:w-1/2 flex flex-col lg:pr-4 mb-6 lg:mb-0">
+          <div className="lg:w-1/2 flex flex-col order-2 lg:order-1 lg:pr-4 mb-6 lg:mb-0">
             <div className="flex flex-col">
               <h2 className="text-2xl font-bold mb-2">Data Engineer Intern</h2>
               <p className="text-lg text-gray-300">Diggibyte Technologies Private Limited</p>
@@ -36,7 +37,7 @@ const Experience = () => {
               <a href="https://drive.google.com/file/d/1DhzMCf3vUjoX2ypOIjAGwVloVRRgQvPx/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-300 underline mt-4 font-bold">Experience Certificate</a>
             </div>
           </div>
-          <div className="lg:w-1/2 flex flex-col place-items-end">
+          <div className="lg:w-1/2 flex flex-col order-1 lg:order-2 place-items-center lg:place-items-end lg:mb-0 mb-5">
             <div className="flex flex-col items-center">
               <img
                 src={diggibyteLogo}
@@ -50,11 +51,10 @@ const Experience = () => {
 
         {/* Imbuesoft */}
         <div className="flex flex-col lg:flex-row items-center">
-          <div className="lg:w-1/2 flex flex-col lg:pr-4 mb-6 lg:mb-0">
+          <div className="lg:w-1/2 flex flex-col order-2 lg:order-1 lg:pr-4 mb-6 lg:mb-0">
             <div className="flex flex-col">
               <h2 className="text-2xl font-bold mb-2">Web Developer Intern</h2>
-              <p className="text-lg text-gray-300">Imbuesoft L.L.P</p>
-              <p className="text-lg text-gray-300">India (Remote)</p>
+              <p className="text-lg text-gray-300">Imbuesoft L.L.P, India (Remote)</p>
               <p className="text-lg font-semibold mt-2">Jan 2022 – Apr 2022</p>
               <ul className="mt-4 list-disc list-inside">
                 <li>Developed the Landing page and Authentication pages in ReactJS for the Vistaderm Project.</li>
@@ -65,7 +65,7 @@ const Experience = () => {
               <a href="https://drive.google.com/file/d/1qS9ZU809MIQrSS4gxgEzZAENln-aKlvj/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-300 underline mt-4 font-bold">Experience Certificate</a>
             </div>
           </div>
-          <div className="lg:w-1/2 flex flex-col place-items-end">
+          <div className="lg:w-1/2 flex flex-col order-1 lg:order-2 place-items-center lg:place-items-end lg:mb-0 mb-5">
             <div className="flex flex-col items-center">
               <img
                 src={imbuesoftLogo}
