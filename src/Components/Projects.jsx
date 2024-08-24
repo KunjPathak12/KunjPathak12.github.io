@@ -4,12 +4,12 @@ import axios from 'axios';
 
 const projects = [
   {
-    title: "Event-Driven Streaming E.T.L",
-    techStack: "Java, Spring Boot, Python, PySpark, AWS, Amazon Lambda, EC2, AWS Glue, S3, AWS EventBridge, AWS SNS, Polygon API, Parquet, Serverless Architecture",
+    title: "Streaming Stocks Data E.T.L",
+    techStack: "Java, Spring Boot, Python, PySpark, AWS, Amazon Lambda, EC2, AWS Glue, S3, AWS EventBridge, AWS SNS, Polygon API, Parquet, Serverless Architecture, Event-Driven Approach",
     description: `Developed an advanced ETL (Extract, Transform, Load) solution tailored for Data Scientists and Stock Market Analysts, delivering up-to-date, actionable stock market data through live streaming Polygon Api. Focused on the transformation phase, the application seamlessly processes data from Polygon's live API, converting it into Parquet format for consistency and schema safety. Integrated user-specific stock data efficiently, handling updates and deletions dynamically. Leveraged AWS Glue for scalable, serverless ETL job execution and implemented an event-driven system with AWS EventBridge for automated workflows. AWS Lambda and EC2 provided scalable computing, while AWS SNS ensured timely notifications and file availability. This solution empowered users with precise data and streamlined access for effective trading strategy development.`,
     sourceCodeLink: "https://github.com/KunjPathak12/LiveStreaming_Cloud_ETL_AWS_Stocks_API",
-    livePreview: false,
-    livePreviewLink: "",
+    livePreview: true,
+    livePreviewLink: "https://raw.githubusercontent.com/KunjPathak12/LiveStreaming_Cloud_ETL_AWS_Stocks_API/main/FINSTOCKArch(2).jpg",
     tag: "Data Engineering & Cloud Computing", // Add a tag for the project
   },
   {
