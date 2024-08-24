@@ -147,19 +147,29 @@ const Projects = () => {
                   </span>
                 )}
               </div>
-              <p className="text-lg text-gray-400 text-center lg:text-left">{project.techStack}</p>
+              <p className="text-base text-green-300 text-center lg:text-left">{project.techStack}</p>
               <p className="text-base mt-2 text-center lg:text-left">{project.description}</p>
               <a
                 href={project.sourceCodeLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xl font-bold text-gray-300 mt-4 text-center lg:text-left"
+                className="text-xl font-bold text-blue-300 mt-4 text-center lg:text-left"
               >
                 Source Code
               </a>
             </div>
           </div>
         ))}
+         <div className="text-center mt-8">
+          <a
+            href="https://github.com/KunjPathak12"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-orange-600 text-white px-6 py-2 rounded text-lg font-semibold hover:bg-orange-800 transition duration-300"
+          >
+            View More Projects
+          </a>
+        </div>
       </div>
     </section>
   );
