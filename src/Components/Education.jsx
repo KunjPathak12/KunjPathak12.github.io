@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import dalhousieLogo from '../media/dal-logo.png'; 
 import gtuLogo from '../media/gtu.png';
 
@@ -6,7 +7,14 @@ const Education = () => {
   return (
     <section id="education" className="bg-gray-700 text-white py-12 px-4 lg:px-8">
       <div className="container mx-auto">
-
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold">Education</h2>
+        </motion.div>
         {/* Dalhousie University */}
         <div className="flex flex-col lg:flex-row items-center mb-12">
           <div className="lg:w-1/2 flex flex-col lg:pr-4 mb-6 lg:mb-0">

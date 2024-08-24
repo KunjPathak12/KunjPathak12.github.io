@@ -142,7 +142,7 @@ const Projects = () => {
               <div className="flex items-center justify-center lg:justify-start mb-2">
                 <h2 className="text-2xl font-bold">{project.title}</h2>
                 {project.tag && (
-                  <span className="ml-3 text-sm font-semibold bg-blue-600 text-white px-2 py-1 rounded">
+                  <span className="ml-3 text-sm font-semibold bg-blue-600 text-white px-2 py-1 rounded transition duration-300 hover:scale-105 cursor-pointer">
                     {project.tag}
                   </span>
                 )}
@@ -153,7 +153,7 @@ const Projects = () => {
                 href={project.sourceCodeLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xl font-bold text-blue-300 mt-4 text-center lg:text-left"
+                className="text-xl font-bold text-blue-300 mt-4 text-center hover:text-blue-500 lg:text-left"
               >
                 Source Code
               </a>
