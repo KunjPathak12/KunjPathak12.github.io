@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.696e0678.css",
-    "main.js": "/static/js/main.2073fb3b.js",
+    "main.js": "/static/js/main.c4812fb8.js",
     "static/media/photo.jpg": "/static/media/photo.a5fcf87e8f62be54841e.jpg",
     "static/media/fbackp.png": "/static/media/fbackp.4a3877c46a4599b11d9b.png",
     "static/media/azure.png": "/static/media/azure.5a694f18b0e4f276ce48.png",
     "static/media/gtu.png": "/static/media/gtu.1853d73e02c386d80d2b.png",
     "static/media/jenkins.png": "/static/media/jenkins.4f82093f4d619a5d9aca.png",
-    "static/media/resume.pdf": "/static/media/resume.c19e2799b4b8df8da5b9.pdf",
     "static/media/dbrksc.png": "/static/media/dbrksc.02adb44eb3f6102fb1a5.png",
+    "static/media/resume.pdf": "/static/media/resume.20fb8438df95c2a9ffbe.pdf",
     "static/media/vite.png": "/static/media/vite.83fc56296fdfb132d352.png",
     "static/media/springsec.png": "/static/media/springsec.287045c4e861e8e16b20.png",
     "static/media/Kubernetes.png": "/static/media/Kubernetes.c9c13f02a3279ff098bd.png",
@@ -33,10 +33,10 @@
     "static/media/gcicd.png": "/static/media/gcicd.018383e35fc5366c75f7.png",
     "index.html": "/index.html",
     "main.696e0678.css.map": "/static/css/main.696e0678.css.map",
-    "main.2073fb3b.js.map": "/static/js/main.2073fb3b.js.map"
+    "main.c4812fb8.js.map": "/static/js/main.c4812fb8.js.map"
   },
   "entrypoints": [
     "static/css/main.696e0678.css",
-    "static/js/main.2073fb3b.js"
+    "static/js/main.c4812fb8.js"
   ]
 }
