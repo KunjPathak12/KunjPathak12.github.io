@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.696e0678.css",
-    "main.js": "/static/js/main.c4812fb8.js",
+    "main.css": "/static/css/main.4b77ccaa.css",
+    "main.js": "/static/js/main.ecda392b.js",
     "static/media/photo.jpg": "/static/media/photo.a5fcf87e8f62be54841e.jpg",
     "static/media/fbackp.png": "/static/media/fbackp.4a3877c46a4599b11d9b.png",
     "static/media/azure.png": "/static/media/azure.5a694f18b0e4f276ce48.png",
     "static/media/gtu.png": "/static/media/gtu.1853d73e02c386d80d2b.png",
     "static/media/jenkins.png": "/static/media/jenkins.4f82093f4d619a5d9aca.png",
     "static/media/dbrksc.png": "/static/media/dbrksc.02adb44eb3f6102fb1a5.png",
-    "static/media/resume.pdf": "/static/media/resume.20fb8438df95c2a9ffbe.pdf",
+    "static/media/resume.pdf": "/static/media/resume.49a9e39c95c0be5cb246.pdf",
     "static/media/vite.png": "/static/media/vite.83fc56296fdfb132d352.png",
     "static/media/springsec.png": "/static/media/springsec.287045c4e861e8e16b20.png",
     "static/media/Kubernetes.png": "/static/media/Kubernetes.c9c13f02a3279ff098bd.png",
@@ -19,6 +19,7 @@
     "static/media/etl.png": "/static/media/etl.c7b6d98bb11a2846a44e.png",
     "static/media/dbricks.png": "/static/media/dbricks.161f39a639da8d0e0ee6.png",
     "static/media/dgb.png": "/static/media/dgb.83035ddbacedb7abf7bc.png",
+    "static/media/QDR.png": "/static/media/QDR.356f03b47868b597c975.png",
     "static/media/adf.jpg": "/static/media/adf.76324b40d36fabe3ae48.jpg",
     "static/media/tfk.jpg": "/static/media/tfk.4e7ed280caad1b914d36.jpg",
     "static/media/gke.png": "/static/media/gke.52c3a347705efc5b679c.png",
@@ -32,11 +33,11 @@
     "static/media/docker.png": "/static/media/docker.a7cd004c56a51341418e.png",
     "static/media/gcicd.png": "/static/media/gcicd.018383e35fc5366c75f7.png",
     "index.html": "/index.html",
-    "main.696e0678.css.map": "/static/css/main.696e0678.css.map",
-    "main.c4812fb8.js.map": "/static/js/main.c4812fb8.js.map"
+    "main.4b77ccaa.css.map": "/static/css/main.4b77ccaa.css.map",
+    "main.ecda392b.js.map": "/static/js/main.ecda392b.js.map"
   },
   "entrypoints": [
-    "static/css/main.696e0678.css",
-    "static/js/main.c4812fb8.js"
+    "static/css/main.4b77ccaa.css",
+    "static/js/main.ecda392b.js"
   ]
 }
