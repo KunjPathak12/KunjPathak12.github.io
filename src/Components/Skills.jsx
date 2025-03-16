@@ -31,6 +31,7 @@ import skl from '../media/sklearn.png';
 import pandas from '../media/pandas.png';
 import plt from '../media/plt.png';
 import tfk from '../media/tfk.jpg';
+import dbt from '../media/dbt.png';
 
 const skills = {
   Languages: [
@@ -54,6 +55,7 @@ const skills = {
   "Data Engineering Tools": [
     { name: 'PySpark', img: pyspark },
     { name: 'Azure Data Factory', img: adf },
+    { name: 'Data Build Tool (DBT)', img: dbt},
     { name: 'Databricks', img: dbricks },
     { name: 'AWS Glue', img: glue},
     { name: 'Apache Spark', img: spark},

@@ -30,7 +30,7 @@ const Education = () => {
               <h2 className="text-2xl font-bold mb-2">Dalhousie University 🇨🇦</h2>
               <p className="text-lg text-gray-200">Halifax, NS, Canada</p>
               <p className="text-lg font-semibold mt-2">Master of Applied Computer Science</p>
-              <p className="text-green-300">Jan 2024 – May 2025</p>
+              <p className="text-green-300">Jan 2024 – Current</p>
               <p className="mt-4">As a Master’s student, I’ve deepened my expertise in modern software practices and technologies. I’ve developed strong skills in code quality, database design, and data science, and enhanced my knowledge of cloud technologies and DevOps through serverless architectures and microservices implementation. I am now well equipped to handle Full-Stack Roles with the expanded knowledge of Spring-Boot and React.</p>
             </div>
           </div>

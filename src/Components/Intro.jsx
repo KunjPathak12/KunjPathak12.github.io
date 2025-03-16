@@ -14,6 +14,7 @@ import kubectl from '../media/Kubernetes.png';
 import mongodb from '../media/mongodb.png';
 import mysql from '../media/mysql.png';
 import docker from '../media/docker.png';
+import dbt from '../media/dbt.png';
 import resume from '../media/resume.pdf'
 
 const Intro = () => {
@@ -70,15 +71,18 @@ const Intro = () => {
         <div className="flex-1 lg:pl-4 text-center lg:text-left">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Hi, I'm Kunj!</h1>
           <p className="text-base md:text-lg mb-3">
-            currently pursuing <b>🎓Master’s degree in Applied Computer Science at Dalhousie University in Halifax, Canada</b> 🇨🇦. My professional journey includes diverse internship experiences where I have developed robust skill set in <b>Data Engineering and Software Development</b>. These roles have allowed me to tackle complex projects, collaborate effectively with teams, and enhance my problem-solving capabilities.
+            I am currently a <b>Data Engineer Co-op at QuadReal Property Group, one of Canada’s leading real estate investment firms</b>, where I design and optimize scalable data pipelines and automate workflows to manage critical financial data, that drives business insights.
+            Further, I am pursuing <b>🎓 Master’s in Applied Computer Science at Dalhousie University</b> Canada 🇨🇦.
           </p>
-          <p className="text-base md:text-lg mb-6">
-            I aim to apply my gained Skills effectively to Contribute to meaningful and Innovative Projects.
+          <p className="text-base md:text-lg mb-3">
+            My journey has helped me build a strong foundation in <b>Software Development and Data Engineering</b>, solving real-world data challenges and collaborating with cross-functional teams on impactful projects.
           </p>
           <p className="text-base md:text-lg mb-6 flex items-center justify-center lg:justify-start">
-            The Technologies I love to work with
+            The technologies I love working with
             <FontAwesomeIcon icon={faCode} className="text-gray-400 ml-2" />&nbsp;:
           </p>
+
+
           {/* Tech Stack Icons */}
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-6">
             <motion.div whileHover={{ scale: 1.2 }} className="relative group">
@@ -129,6 +133,14 @@ const Intro = () => {
               </div>
               <span className="absolute bottom-[-20px] left-0 w-full text-center text-xs opacity-0 group-hover:opacity-100 transition-opacity">
                 PySpark
+              </span>
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.2 }} className="relative group">
+              <div className="w-8 h-8">
+                <img src={dbt} alt="dbt" className="w-full h-full object-cover rounded-full border border-gray-500 group-hover:opacity-80" />
+              </div>
+              <span className="absolute bottom-[-20px] left-0 w-full text-center text-xs opacity-0 group-hover:opacity-100 transition-opacity">
+                dbt
               </span>
             </motion.div>
             <motion.div whileHover={{ scale: 1.2 }} className="relative group">
