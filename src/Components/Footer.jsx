@@ -40,7 +40,7 @@ const Footer = () => {
             <div className="text-sm mt-2">GitHub</div>
           </motion.a>
         </div>
-        <p className="text-lg md:text-lg mb-2 mt-4"><b>📍 Halifax, NS, Canada 🇨🇦</b></p>
+        <p className="text-lg md:text-lg mb-2 mt-4"><b>📍 Toronto, ON, Canada 🇨🇦</b></p>
       </div>
       <p className="text-center mt-4">&copy; {new Date().getFullYear()} Kunj Pathak. All rights reserved.</p>
     </footer>
