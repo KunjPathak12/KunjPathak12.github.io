@@ -1,30 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b77ccaa.css",
-    "main.js": "/static/js/main.ecda392b.js",
+    "main.css": "/static/css/main.29399aa3.css",
+    "main.js": "/static/js/main.6d92b108.js",
     "static/media/photo.jpg": "/static/media/photo.a5fcf87e8f62be54841e.jpg",
     "static/media/fbackp.png": "/static/media/fbackp.4a3877c46a4599b11d9b.png",
     "static/media/azure.png": "/static/media/azure.5a694f18b0e4f276ce48.png",
     "static/media/gtu.png": "/static/media/gtu.1853d73e02c386d80d2b.png",
     "static/media/jenkins.png": "/static/media/jenkins.4f82093f4d619a5d9aca.png",
     "static/media/dbrksc.png": "/static/media/dbrksc.02adb44eb3f6102fb1a5.png",
-    "static/media/resume.pdf": "/static/media/resume.49a9e39c95c0be5cb246.pdf",
-    "static/media/vite.png": "/static/media/vite.83fc56296fdfb132d352.png",
+    "static/media/resume.pdf": "/static/media/resume.6978d235c1997798260d.pdf",
     "static/media/springsec.png": "/static/media/springsec.287045c4e861e8e16b20.png",
     "static/media/Kubernetes.png": "/static/media/Kubernetes.c9c13f02a3279ff098bd.png",
-    "static/media/plt.png": "/static/media/plt.733fe40932b5f238472a.png",
     "static/media/hface.png": "/static/media/hface.54d1c57b8e2d6ef02b21.png",
     "static/media/dal-logo.png": "/static/media/dal-logo.93a9a2e8009206e416e1.png",
+    "static/media/mssql.png": "/static/media/mssql.0975f6359e724ad0425c.png",
     "static/media/gcloud.png": "/static/media/gcloud.8197cb7e0c225d77c6a9.png",
     "static/media/etl.png": "/static/media/etl.c7b6d98bb11a2846a44e.png",
     "static/media/dbricks.png": "/static/media/dbricks.161f39a639da8d0e0ee6.png",
     "static/media/dgb.png": "/static/media/dgb.83035ddbacedb7abf7bc.png",
     "static/media/QDR.png": "/static/media/QDR.356f03b47868b597c975.png",
     "static/media/adf.jpg": "/static/media/adf.76324b40d36fabe3ae48.jpg",
-    "static/media/tfk.jpg": "/static/media/tfk.4e7ed280caad1b914d36.jpg",
     "static/media/gke.png": "/static/media/gke.52c3a347705efc5b679c.png",
     "static/media/springboot.png": "/static/media/springboot.e82018cf32e10af73393.png",
-    "static/media/pyspark.jpg": "/static/media/pyspark.dbc012234bada8d52e37.jpg",
     "static/media/mysql.png": "/static/media/mysql.43dc9d7885f4f49c3b33.png",
     "static/media/airflow.png": "/static/media/airflow.f9d3166b67d831dfa89c.png",
     "static/media/tform.png": "/static/media/tform.964a937c6c20163b28ac.png",
@@ -33,11 +30,11 @@
     "static/media/docker.png": "/static/media/docker.a7cd004c56a51341418e.png",
     "static/media/gcicd.png": "/static/media/gcicd.018383e35fc5366c75f7.png",
     "index.html": "/index.html",
-    "main.4b77ccaa.css.map": "/static/css/main.4b77ccaa.css.map",
-    "main.ecda392b.js.map": "/static/js/main.ecda392b.js.map"
+    "main.29399aa3.css.map": "/static/css/main.29399aa3.css.map",
+    "main.6d92b108.js.map": "/static/js/main.6d92b108.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b77ccaa.css",
-    "static/js/main.ecda392b.js"
+    "static/css/main.29399aa3.css",
+    "static/js/main.6d92b108.js"
   ]
 }
