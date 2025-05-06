@@ -5,23 +5,25 @@ import fback from '../media/fbackp.png';
 
 const projects = [
   {
-    title: "Streaming Stocks Data E.T.L",
-    techStack: "Java, Spring Boot, Python, PySpark, AWS, Amazon Lambda, EC2, AWS Glue, S3, AWS EventBridge, AWS SNS, Polygon API, Parquet, Serverless Architecture, Event-Driven Approach",
-    description: `Developed an advanced ETL (Extract, Transform, Load) solution tailored for Data Scientists and Stock Market Analysts, delivering up-to-date, actionable stock market data through live streaming Polygon Api. Focused on the transformation phase, the application seamlessly processes data from Polygon's live API, converting it into Parquet format for consistency and schema safety. Integrated user-specific stock data efficiently, handling updates and deletions dynamically. Leveraged AWS Glue for scalable, serverless ETL job execution and implemented an event-driven system with AWS EventBridge for automated workflows. AWS Lambda and EC2 provided scalable computing, while AWS SNS ensured timely notifications and file availability. This solution empowered users with precise data and streamlined access for effective trading strategy development.`,
-    sourceCodeLink: "https://github.com/KunjPathak12/LiveStreaming_Cloud_ETL_AWS_Stocks_API",
-    livePreview: true,
-    livePreviewLink: "https://raw.githubusercontent.com/KunjPathak12/LiveStreaming_Cloud_ETL_AWS_Stocks_API/main/FINSTOCKArch(2).jpg",
-    tag: "Data Engineering & Cloud Computing", // Add a tag for the project
-  },
-  {
     title: "Tiffin Box WebApp",
     techStack: "Java, Lombok, Spring Boot, Spring-Security, Spring-Hibernate, Jpa-Repository, Spring-Boot-Starter-Mail, MongoDB, ReactJs, Tailwind CSS, Cloudinary, Axios",
     description: `Developed robust authentication and authorization features for the TiffinBox application using Spring Security, including role-based access control, JWT authentication, and secure session management. Designed and implemented both frontend and backend components, integrating user registration, login, and password recovery functionalities. Created and managed APIs for user profile updates and image uploads, while also establishing global error handling protocols. This work enhanced the overall security and user experience of the platform, showcasing advanced skills in Spring Security, full-stack development, and API integration.`,
-    sourceCodeLink: "https://github.com/rajkp10/TiffinBox",
+    sourceCodeLink: "https://github.com/KunjPathak12/TiffinBox",
     livePreview: true,
     livePreviewLink: "https://tiffinbox-csci5709.netlify.app/",
     tag: "Full Stack Web Development", // Add a tag for the project
   },
+
+  {
+    title: "Streaming Stocks Data E.T.L",
+    techStack: "Java, Spring Boot, REST APIs, Python, AWS (EC2, ALB, Lambda, Glue, S3, EventBridge, SNS, IAM, VPC, CloudFormation), Serverless Architecture, Event-Driven Design, PySpark, Parquet, S3 Lifecycle Policies, Multi-AZ Deployment",
+    description: `Designed and implemented a cloud-native ETL architecture on AWS, focused on secure, scalable backend operations for real-time stock data ingestion. Developed Spring Boot microservices hosted on EC2 within private subnets, managed via an ALB for secure ingress. Integrated AWS Glue to transform streaming JSON data from Polygon API into Parquet, stored in S3 across bronze, silver, and gold layers. Orchestrated event-driven workflows using Lambda and EventBridge, enabling decoupled, serverless automation. Enforced security through IAM, VPC, and S3 encryption, and ensured reliability with multi-AZ deployment and auto-scaling. Followed AWS Well-Architected Framework to meet standards in operational excellence, security, and performance, with future-ready plans for ECS Fargate, Cognito, and Secrets Manager.`,
+    sourceCodeLink: "https://github.com/KunjPathak12/LiveStreaming_Cloud_ETL_AWS_Stocks_API",
+    livePreview: true,
+    livePreviewLink: "https://raw.githubusercontent.com/KunjPathak12/LiveStreaming_Cloud_ETL_AWS_Stocks_API/refs/heads/main/finstockArch.jpg",
+    tag: "Cloud Computing & Data Engineering", // Add a tag for the project
+  },
+
   {
     title: "K8s MicroServices",
     techStack: "Java, Spring-Boot, Docker, Kubernetes, Microservice, Google Cloud Platform, CI/CD with Cloudbuild and Artifact-Registry , Google Kubernetes Engine, Terraform",
@@ -31,6 +33,7 @@ const projects = [
     livePreviewLink: "",
     tag: "DevOps", // Add a tag for the project
   },
+
   {
     title: "Image Caption Generation",
     techStack: "Transformers, NLP, PyTorch, Encoder-Decoder-Model, CV",

@@ -71,11 +71,12 @@ const Intro = () => {
         <div className="flex-1 lg:pl-4 text-center lg:text-left">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Hi, I'm Kunj!</h1>
           <p className="text-base md:text-lg mb-3">
-            I am currently a <b>Data Engineer Co-op at QuadReal Property Group, one of Canada’s leading real estate investment firms</b>, where I design and optimize scalable data pipelines and automate workflows to manage critical financial data, that drives business insights.
-            Further, I am pursuing <b>🎓 Master’s in Applied Computer Science at Dalhousie University</b> Canada 🇨🇦.
+            Currently a <b>Data Engineer Intern at QuadReal Property Group</b>, one of Canada’s leading real estate investment firms. 
+            I <b> design and optimize scalable data pipelines and automate workflows, to manage critical financial data </b>, through collaborating with cross-functional teams.
           </p>
           <p className="text-base md:text-lg mb-3">
-            My journey has helped me build a strong foundation in <b>Software Development and Data Engineering</b>, solving real-world data challenges and collaborating with cross-functional teams on impactful projects.
+          Further, I am a <b>recent Graduate</b> and have completed my <b>🎓 Master’s in Applied Computer Science from Dalhousie University</b> Canada 🇨🇦. 
+          My journey has helped me build a strong foundation in <b>Software Development and Data Engineering</b>, solving real-world data challenges.
           </p>
           <p className="text-base md:text-lg mb-6 flex items-center justify-center lg:justify-start">
             The technologies I love working with
@@ -196,7 +197,7 @@ const Intro = () => {
               </span>
             </motion.div>
           </div>
-          <div className="text-center pt-6 lg:pt-16">
+          <div className="text-center pt-6 lg:pt-5">
           <a
             href={resume}
             target="_blank"

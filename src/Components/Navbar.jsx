@@ -68,7 +68,7 @@ const Navbar = () => {
           } lg:translate-x-0 lg:flex lg:flex-row lg:space-x-4`}
           style={{ top: '4rem' }} // Ensures menu starts below the navbar on small screens
         >
-          {['education', 'skills', 'experience', 'projects', 'certifications'].map((section) => (
+          {['experience', 'skills', 'education', 'projects', 'certifications'].map((section) => (
             <li key={section} className="text-center lg:text-left lg:my-0 my-4">
               <Link
                 to={section}
@@ -92,7 +92,7 @@ const Navbar = () => {
           style={{ top: '4rem' }}
         >
           <ul className="space-y-6">
-            {['education', 'skills', 'experience', 'projects', 'certifications'].map((section) => (
+            {['experience', 'skills', 'education', 'projects', 'certifications'].map((section) => (
               <li key={section}>
                 <Link
                   to={section}

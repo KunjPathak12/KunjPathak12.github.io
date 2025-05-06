@@ -16,9 +16,9 @@ const Home = () => {
       <Navbar />
       <main>
         <Intro />
-        <Education />
-        <Skills />
         <Experience />
+        <Skills />
+        <Education />
         <Projects />
         <Certifications />
         {/* <Awards /> */}

@@ -12,15 +12,15 @@ import docker from '../media/docker.png';
 import kubectl from '../media/Kubernetes.png';
 import springboot from '../media/springboot.png';
 import spark from '../media/spark.png';
-import pyspark from '../media/pyspark.jpg';
+// import pyspark from '../media/pyspark.jpg';
 import adf from '../media/adf.jpg';
 import dbricks from '../media/dbricks.png'
-import etl from '../media/etl.png';
+// import etl from '../media/etl.png';
 import glue from '../media/glue.png';
 import airflow from '../media/airflow.png';
 import security from '../media/springsec.png';
 import tailwind from '../media/tailwind.png';
-import vite from '../media/vite.png';
+// import vite from '../media/vite.png';
 import tform from '../media/tform.png';
 import cicd from '../media/gcicd.png';
 import cbuild from '../media/cbuild.png';
@@ -29,8 +29,8 @@ import gke from '../media/gke.png';
 import hface from '../media/hface.png';
 import skl from '../media/sklearn.png';
 import pandas from '../media/pandas.png';
-import plt from '../media/plt.png';
-import tfk from '../media/tfk.jpg';
+import mssql from '../media/mssql.png';
+// import tfk from '../media/tfk.jpg';
 import dbt from '../media/dbt.png';
 
 const skills = {
@@ -50,24 +50,31 @@ const skills = {
   ],
   Databases: [
     { name: 'MySQL', img: mysql },
+    { name: 'MS SQL Server', img: mssql },
     { name: 'MongoDB', img: mongodb },
   ],
-  "Data Engineering Tools": [
-    { name: 'PySpark', img: pyspark },
-    { name: 'Azure Data Factory', img: adf },
-    { name: 'Data Build Tool (DBT)', img: dbt},
-    { name: 'Databricks', img: dbricks },
-    { name: 'AWS Glue', img: glue},
-    { name: 'Apache Spark', img: spark},
-    { name: 'E.T.L. Process', img: etl},
-    { name: 'Apache Airflow', img: airflow},
-  ],
+
   "Cloud Technologies": [
     { name: 'AWS', icon: faAws },
     { name: 'Azure', img: azure },
     { name: 'gCloud', img: gcloud },
   ],
-  "DevOps Tools": [
+
+  "Data Engineering Tools": [
+    { name: 'Apache Spark', img: spark},
+    { name: 'Azure Data Factory', img: adf },
+    { name: 'DBT', img: dbt},
+    { name: 'Databricks', img: dbricks },
+    { name: 'AWS Glue', img: glue},
+    // { name: 'E.T.L. Process', img: etl},
+    { name: 'Apache Airflow', img: airflow},
+    { name: 'Pandas', img: pandas },
+    { name: 'Scikit Learn', img: skl },
+    { name: 'Transformers', img: hface },
+  ],
+
+  "DevOps & Version Control": [
+    { name: 'Git', icon: faGit },
     { name: 'Docker', img: docker },
     { name: 'CloudBuild CI/CD', img: cbuild },
     { name: 'Kubernetes', img: kubectl },
@@ -78,20 +85,21 @@ const skills = {
   ],
   "Frontend Frameworks": [
     { name: 'ReactJS', icon: faReact },
-    { name: 'ViteJs', img: vite },
+    // { name: 'ViteJs', img: vite },
     { name: 'Tailwind CSS', img: tailwind },
 
   ],
-  "Data Science & Modeling": [
-    { name: 'Pandas', img: pandas },
-    { name: 'Scikit Learn', img: skl },
-    { name: 'Transformers', img: hface },
-    { name: 'Tf.Keras', img: tfk },
-    { name: 'Matplotlib', img: plt },
-  ],
-  "Version Control": [
-    { name: 'Git', icon: faGit },
-  ]
+  // "Data Science & Modeling": [
+  //   { name: 'Pandas', img: pandas },
+  //   { name: 'Scikit Learn', img: skl },
+  //   { name: 'Transformers', img: hface },
+  //   { name: 'Tf.Keras', img: tfk },
+  //   { name: 'Matplotlib', img: plt },
+  // ],
+
+  // "Version Control": [
+    
+  // ]
 };
 
 const Skills = () => {

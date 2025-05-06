@@ -22,10 +22,10 @@ const Experience = () => {
         <div className="flex flex-col lg:flex-row items-center mb-12">
           <div className="lg:w-1/2 flex flex-col order-2 lg:order-1 lg:pr-4 mb-6 lg:mb-0">
             <div className="flex flex-col">
-              <h2 className="text-2xl font-bold mb-2">Data Engineer CO-OP 🇨🇦</h2>
+              <h2 className="text-2xl font-bold mb-2">Intern, Data Engineer 🇨🇦</h2>
               <p className="text-lg text-gray-300">QuadReal Proper Group Limited</p>
               <p className="text-lg text-gray-300">Toronto, Canada</p>
-              <p className="text-lg font-semibold mt-2">Jan 2025 – Present</p>
+              <p className="text-lg font-semibold mt-2 text-green-300">Jan 2025 – Present</p>
               <ul className="mt-4 list-disc list-inside">
                 <li>Developed and maintained DBT models, enhancing data transformation efficiency, enforcing data governance standards, and enabling seamless collaboration across Data Engineering, Analytics, and Product teams.</li>
                 <li>Engineered and automated Azure Data Factory (ADF) pipelines to efficiently ingest and transform large datasets into Azure SQL, reducing processing time and improving data accessibility for analytics teams.</li>
@@ -53,16 +53,12 @@ const Experience = () => {
               <h2 className="text-2xl font-bold mb-2">Data Engineer Intern 🇮🇳</h2>
               <p className="text-lg text-gray-300">Diggibyte Technologies Private Limited</p>
               <p className="text-lg text-gray-300">Bangalore, India</p>
-              <p className="text-lg font-semibold mt-2">Dec 2022 – April 2023</p>
+              <p className="text-lg font-semibold mt-2 text-orange-400">Dec 2022 – April 2023</p>
               <ul className="mt-4 list-disc list-inside">
-                <li>Learned data transformation concepts with Spark/PySpark and worked with dataframes.</li>
-                <li>Exported transformed data to cloud storage using various write methods.</li>
-                <li>Worked with Azure Blob Storage and Azure Data Lake Storage for data storage and writing.</li>
-                <li>Gained hands-on experience with Azure Data Factory and Azure Synapse Analytics.</li>
-                <li>Used Databricks for data transformation and storage layer creation, enhancing ETL process knowledge.</li>
-                <li>Performed unit-testing of Spark applications with data-transformation code.</li>
-                <li>Monitored DAGs using Apache Airflow and wrote DAGs with Python and Bash operators.</li>
-                <li>Collaborated with leadership to create a P.O.C for the DBT tool to replace Databricks, using Docker for containerization.</li>
+                <li>Applied data transformation using Spark/PySpark and DataFrames; exported results to Azure Blob and Data Lake Storage.</li>
+                <li>Built and tested ETL pipelines with Databricks, Azure Data Factory, and Synapse Analytics.</li>
+                <li>Developed and monitored Apache Airflow DAGs using Python and Bash.</li>
+                <li>Led a Dockerized POC using DBT as an alternative to Databricks in collaboration with leadership.</li>
               </ul>
               <a href="https://drive.google.com/file/d/1DhzMCf3vUjoX2ypOIjAGwVloVRRgQvPx/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-300 underline mt-4 font-bold">Experience Certificate</a>
             </div>
@@ -85,13 +81,14 @@ const Experience = () => {
             <div className="flex flex-col">
               <h2 className="text-2xl font-bold mb-2">Software Developer Intern 🇮🇳</h2>
               <p className="text-lg text-gray-300">Imbuesoft L.L.P, India (Remote)</p>
-              <p className="text-lg font-semibold mt-2">Jan 2022 – Apr 2022</p>
+              <p className="text-lg font-semibold mt-2 text-orange-400">Jan 2022 – Apr 2022</p>
               <ul className="mt-4 list-disc list-inside">
-                <li>Developed the Landing page and Authentication pages in ReactJS for the Vistaderm Project.</li>
-                <li>Worked with React Router to link authentication pages.</li>
-                <li>Used SASS for styling the entire project, gaining knowledge in SASS scripting and React framework.</li>
-                <li>Created APIs in Spring Boot for product features related to medicine sales, order history, and getting orders.</li>
-              </ul>
+                <li>Designed and implemented RESTful APIs in Spring Boot for critical modules including medicine catalog, order processing, and order history retrieval.</li>
+                <li>Integrated Spring Security for authentication and role-based access control, enhancing application security and data integrity.</li>
+                <li>Utilized JPA and Hibernate for efficient database interaction, enabling seamless CRUD operations and transactional consistency.</li>
+                <li>Implemented JWT-based authentication and session management to secure endpoints and improve performance.</li>
+                <li>Built responsive, modular UI components for authentication workflows using ReactJS, React Router, and SASS with SCSS architecture to ensure maintainability and scalability.</li>
+                </ul>
               <a href="https://drive.google.com/file/d/1qS9ZU809MIQrSS4gxgEzZAENln-aKlvj/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-300 underline mt-4 font-bold">Experience Certificate</a>
             </div>
           </div>
