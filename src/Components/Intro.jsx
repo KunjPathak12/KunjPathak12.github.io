@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faCode } from '@fortawesome/free-solid-svg-icons';
 import { faJava, faPython, faAws, faReact, faGit } from '@fortawesome/free-brands-svg-icons';
-import photo from '../media/photo.jpg';
+import photo from '../media/Pathak_Kunj_433--0102.jpg';
 import azure from '../media/azure.png';
 import etl from '../media/etl.png';
 import gcloud from '../media/gcloud.png';
